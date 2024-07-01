@@ -1,4 +1,4 @@
-// #include<bits/stdc++.h>
+// #include<bits/stdc++.h>//simple rectangle star printing
 // using namespace std;
 // int main(){
 //     for (int i = 0; i <=5; i++)
@@ -11,7 +11,7 @@
     
     
 // }
-// #include<bits/stdc++.h>
+// #include<bits/stdc++.h>//right angled triangle
 // using namespace std;
 // int main(){
 //     for(int i=0;i<=5;i++){
@@ -21,7 +21,7 @@
 //         cout<<endl;
 //     }
 // }
-// #include<bits/stdc++.h>
+// #include<bits/stdc++.h>//hollowsquare
 // using namespace std;
 // int main(){
 //     int n;
@@ -38,7 +38,7 @@
 //         cout<<endl;
 //     }
 // }
-// #include<bits/stdc++.h>
+// #include<bits/stdc++.h>//upsidedown right angled triangle
 // using namespace std;
 // int main(){
 //     for(int i=0;i<5;i++){
@@ -53,7 +53,7 @@
 //     }
 // }
 
-// #include<bits/stdc++.h>
+// #include<bits/stdc++.h>//number wala right angled triangle
 //  using namespace std;
 //  int main(){
 //      for(int i=1;i<=5;i++){
@@ -64,7 +64,7 @@
 //      }
 //  }
 // #include<bits/stdc++.h>
-// using namespace std;
+// using namespace std;//right handed right angled triangle
 // int main(){
 //     int n;
 //     cin>>n;
@@ -80,19 +80,50 @@
 //         cout<<endl;
 //     }
 // }
+// #include<bits/stdc++.h>
+// using namespace std;//number straight triagle.
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<2*n;j++){
+//             if(j>n-i&&j<n+i){
+//                 cout<<i;
+//             }else{
+//                 cout<<" ";
+//             }
+            
+//         }
+//         cout<<endl;
+//     }
+// }
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
     int n;
     cin>>n;
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<2*n;j++){
-            if(j>n-i&&j<n+i){
-                cout<<i;
-            }else{
-                cout<<" ";
+    for(int i=0;i<=2*n;i++){
+        for(int j=0;j<=2*n;j++){
+            if(i<=n){
+                if(j<n+i&&j>n-i){
+                    cout<<" ";
+                }
+                else{
+                    cout<<"*";
+                }
             }
-            
+            else{
+                if((j>n-i-5&&j<n+i-5)||(j>((2*n+1)-i+1))){
+                    cout<<"*";
+                }
+                // if(j>((2*n+1)-i+1)){
+                //     cout<<"*";
+                // }
+                else{
+                    cout<<" ";
+                }
+            }
+        
         }
         cout<<endl;
     }
