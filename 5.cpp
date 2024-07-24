@@ -97,34 +97,47 @@
 //         cout<<endl;
 //     }
 // }
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=0;i<=2*n;i++){
+//         for(int j=0;j<=2*n;j++){
+//             if(i<=n){
+//                 if(j<n+i&&j>n-i){
+//                     cout<<" ";
+//                 }
+//                 else{
+//                     cout<<"*";
+//                 }
+//             }
+//             else{
+//                 if((j>n-i-5&&j<n+i-5)||(j>((2*n+1)-i+1))){
+//                     cout<<"*";
+//                 }
+//                 // if(j>((2*n+1)-i+1)){
+//                 //     cout<<"*";
+//                 // }
+//                 else{
+//                     cout<<" ";
+//                 }
+//             }
+        
+//         }
+//         cout<<endl;
+//     }
+// }
 #include<bits/stdc++.h>
 using namespace std;
+class G1{
+    public:
+string name;
+int rollno;
+}p1;
 int main(){
-    int n;
-    cin>>n;
-    for(int i=0;i<=2*n;i++){
-        for(int j=0;j<=2*n;j++){
-            if(i<=n){
-                if(j<n+i&&j>n-i){
-                    cout<<" ";
-                }
-                else{
-                    cout<<"*";
-                }
-            }
-            else{
-                if((j>n-i-5&&j<n+i-5)||(j>((2*n+1)-i+1))){
-                    cout<<"*";
-                }
-                // if(j>((2*n+1)-i+1)){
-                //     cout<<"*";
-                // }
-                else{
-                    cout<<" ";
-                }
-            }
-        
-        }
-        cout<<endl;
-    }
+    p1.name="Anshuman";
+    p1.rollno=35;
+    cout<<p1.name<<endl;
+    cout<<p1.rollno;
 }

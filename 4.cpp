@@ -19,9 +19,40 @@
 //     }
     
 // }
+// #include<bits/stdc++.h>
+// using namespace std;
+// class Student{
+//     public:
+//     int a,b;
+//     Student(int x, int y){
+//         a=x;b=y;
+//     }
+// }
+// int main(){
+//     Student S1(10,20);
+//     Student S2(S1);
+//     Student S2=S1;
+// }
 #include<bits/stdc++.h>
 using namespace std;
+class student{
+    public:
+    student(){
+        int n;
+        cin>>n;
+        int ans=0;
+        while(n){
+            ans=ans*10+n%10;
+            n/=10;
+        }
+        cout<<ans<<endl;
+    };
+    
+
+
+};
 int main(){
-    float n;
-    cin>>n
+    student s1;
 }
+
+
