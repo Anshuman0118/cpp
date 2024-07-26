@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 // int main(){
 //     int x=2;
 //     int *ptr=&x;
@@ -49,15 +50,37 @@ int main(){
 // else{
 //     cout<<"not prime";
 // }
-        int a;
-        a=12;
-        cout<<"size of int: "<<sizeof(a)<<endl;
+        // int a;
+        // a=12;
+        // cout<<"size of int: "<<sizeof(a)<<endl;
 
-        float b;
-        cout<<"size of float: "<<sizeof(b)<<endl;
+        // float b;
+        // cout<<"size of float: "<<sizeof(b);
 
-        char c;
-        cout<<"size of bool is: "<<sizeof(c)<<endl;
+        // char c;
+        // cout<<"size of bool is: "<<sizeof(c)<<endl;
+        // int n;
+        // cin>>n;
+        // if(n%2==0){
+        //     cout<<"Even"<<endl;
+        // }
+        // else{
+        //     cout<<"Odd";
+        // }
+
+        
+        // int l;
+        // cin>>l;
+        
+        // int b;
+        // cin>>b;
+        // int n;
+        // n=l*b;
+        // cout<<n<<endl;
+        // int x;
+        // x=2*(l+b);
+        // cout<<x;
+
 
 
 
